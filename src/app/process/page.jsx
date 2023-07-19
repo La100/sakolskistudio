@@ -9,9 +9,9 @@ import { PageIntro } from '@/components/PageIntro'
 import { SectionIntro } from '@/components/SectionIntro'
 import { StylizedImage } from '@/components/StylizedImage'
 import { TagList, TagListItem } from '@/components/TagList'
-import imageLaptop from '@/images/laptop.jpg'
-import imageMeeting from '@/images/meeting.jpg'
-import imageWhiteboard from '@/images/whiteboard.jpg'
+import imageLaptop from '@/images/flip3.png'
+import imageMeeting from '@/images/flip4.png'
+import imageWhiteboard from '@/images/flip2.png'
 
 function Section({ title, image, children }) {
   return (
@@ -22,7 +22,7 @@ function Section({ title, image, children }) {
             <StylizedImage
               {...image}
               sizes="(min-width: 1024px) 41rem, 31rem"
-              className="justify-center lg:justify-end lg:group-even/section:justify-start"
+              className=" lg:justify-end lg:group-even/section:justify-start"
             />
           </FadeIn>
         </div>
@@ -45,40 +45,38 @@ function Section({ title, image, children }) {
 
 function Discover() {
   return (
-    <Section title="Discover" image={{ src: imageWhiteboard }}>
+    <Section title="Odkrycie" image={{ src: imageWhiteboard }}>
       <div className="space-y-6 text-base text-neutral-600">
         <p>
-          We work closely with our clients to understand their{' '}
-          <strong className="font-semibold text-neutral-950">needs</strong> and
-          goals, embedding ourselves in their every day operations to understand
-          what makes their business tick.
+          Pracujemy z inwestorami i najpierw poznajemych ich{' '}
+          <strong className="font-semibold text-neutral-950">potrzeby</strong> i cele.
+          Następnie rozpoczynamy poszukiwania okazji inwestycyjnej, o ile nie mamy aktualnie dostępnych.
+        
         </p>
         <p>
-          Our team of private investigators shadow the company director’s for
-          several weeks while our account managers focus on going through their
-          trash. Our senior security experts then perform social engineering
-          hacks to gain access to their{' '}
-          <strong className="font-semibold text-neutral-950">business</strong>{' '}
-          accounts — handing that information over to our forensic accounting
-          team.
+        Okazje występują w wielu miejsach, takich jak portale ogłoszeniowe, licytacje komornicze, nieruchomości zagmatwane prawnie.
+          Naszym zadaniem jest znalezienie okazji {' '}
+          <strong className="font-semibold text-neutral-950">poniżej ceny rynkowej.</strong>{' '}
+        
         </p>
         <p>
-          Once the full audit is complete, we report back with a comprehensive{' '}
-          <strong className="font-semibold text-neutral-950">plan</strong> and,
-          more importantly, a budget.
+          Kiedy okazja jest znaleziona, przedstawiamy Ci {' '}
+          <strong className="font-semibold text-neutral-950">korzystną</strong> ofertę w Twoim budżecie.
+
+  
         </p>
       </div>
 
       <h3 className="mt-12 font-display text-base font-semibold text-neutral-950">
-        Included in this phase
+        Na tym etapie
       </h3>
       <TagList className="mt-4">
-        <TagListItem>In-depth questionnaires</TagListItem>
-        <TagListItem>Feasibility studies</TagListItem>
-        <TagListItem>Blood samples</TagListItem>
-        <TagListItem>Employee surveys</TagListItem>
-        <TagListItem>Proofs-of-concept</TagListItem>
-        <TagListItem>Forensic audit</TagListItem>
+        <TagListItem>Analiza Twoich potrzeb</TagListItem>
+        <TagListItem>Przygotowanie strategii</TagListItem>
+        <TagListItem>Obliczenie zysków</TagListItem>
+        <TagListItem>Znalezienie okazji</TagListItem>
+        <TagListItem>Przedstawienie Ci możliwości</TagListItem>
+       
       </TagList>
     </Section>
   )
@@ -86,35 +84,24 @@ function Discover() {
 
 function Build() {
   return (
-    <Section title="Build" image={{ src: imageLaptop, shape: 1 }}>
+    <Section title="Renowacja" image={{ src: imageLaptop, shape: 1 }}>
       <div className="space-y-6 text-base text-neutral-600">
         <p>
-          Based off of the discovery phase, we develop a comprehensive roadmap
-          for each product and start working towards delivery. The roadmap is an
-          intricately tangled mess of technical nonsense designed to drag the
-          project out as long as possible.
+          Posiadamy własną ekipę remontową. Wykonaliśmy z nią już 13 renowacji. 
         </p>
         <p>
-          Each client is assigned a key account manager to keep lines of
-          communication open and obscure the actual progress of the project.
-          They act as a buffer between the client’s incessant nagging and the
-          development team who are hard at work scouring open source projects
-          for code to re-purpose.
+          Cenimy sobie terminowość i przykładanie uwagi do szczegółów.  Potrafimy wykować remont w optymalnym budżecie. Nasz architekt przygotowuje plan oraz listę zakupów.
         </p>
         <p>
-          Our account managers are trained to only reply to client emails after
-          9pm, several days after the initial email. This reinforces the general
-          aura that we are very busy and dissuades clients from asking for
-          changes.
+          Możesz zapomnieć o kilkudziesięciu wycieczkach do Bricko Mana i Leroy Merlin. Cały proces remontu staje się dla Ciebie sprawny i przyjemny. Bez stania w korkach i kłócenia się z robotnikami.
         </p>
       </div>
 
       <Blockquote
-        author={{ name: 'Debra Fiscal', role: 'CEO of Unseal' }}
+        author={{ name: 'Adam Tamowski', role: 'Inwestor' }}
         className="mt-12"
       >
-        Studio were so regular with their progress updates we almost began to
-        think they were automated!
+        To pierwszy remont w moim życiu który poszedł sprawnie. Do tej pory miałem złe wspomnienia z ekipami remontowymi, lecz Sakolski Investments pokazało mi, że można inaczej.
       </Blockquote>
     </Section>
   )
@@ -122,52 +109,44 @@ function Build() {
 
 function Deliver() {
   return (
-    <Section title="Deliver" image={{ src: imageMeeting, shape: 2 }}>
+    <Section title="Wystawienie na rynek" image={{ src: imageMeeting, shape: 2 }}>
       <div className="space-y-6 text-base text-neutral-600">
         <p>
-          About halfway through the Build phase, we push each project out by 6
-          weeks due to a change in{' '}
+          Aby jak nawięcej{' '} 
           <strong className="font-semibold text-neutral-950">
-            requirements
+            zarobić  
           </strong>
-          . This allows us to increase the budget a final time before launch.
+          {' '}na nieruchomości, ogłoszenie musi być idealne. Musi je także zobaczyć jak najwięcej potencjalnych klientów.
         </p>
         <p>
-          Despite largely using pre-built components, most of the{' '}
-          <strong className="font-semibold text-neutral-950">progress</strong>{' '}
-          on each project takes place in the final 24 hours. The development
-          time allocated to each client is actually spent making augmented
-          reality demos that go viral on Twitter.
+          Po zrobieniu {' '}
+          <strong className="font-semibold text-neutral-950">homestaginu</strong>{' '}
+          i sesji zdjęciowej przez profesjonalnego fotografa, dodajemy ogłoszenie na portale ogłoszeniowe. Tekst jest oczywiście przemyślany, pasujący pod potrzeby idealnego klienta.
         </p>
         <p>
-          We ensure that the main pages of the site are{' '}
+          Staramy się żeby prezentacja przebiegła{' '}
           <strong className="font-semibold text-neutral-950">
-            fully functional
+            idealnie.
           </strong>{' '}
-          at launch — the auxiliary pages will, of course, be lorem ipusm shells
-          which get updated as part of our exorbitant{' '}
+          Nieruchomość jest przed każdą dokładnie wyczyszczona, tak, że się{' '}
           <strong className="font-semibold text-neutral-950">
-            maintenance
-          </strong>{' '}
-          retainer.
+            błyszczy.
+          </strong>
         </p>
       </div>
 
       <h3 className="mt-12 font-display text-base font-semibold text-neutral-950">
-        Included in this phase
+        Na tym etapie
       </h3>
       <List className="mt-8">
-        <ListItem title="Testing">
-          Our projects always have 100% test coverage, which would be impressive
-          if our tests weren’t as porous as a sieve.
+        <ListItem title="Homestaging">
+          Małą ilością pracy, można sprawdzić że nieruchomość wygląda dużo lepiej. Postawienie roślin, lub zawieszenie obrazków, zmienia lokal, tak że staje się przyjemny dla oka.
         </ListItem>
-        <ListItem title="Infrastructure">
-          To ensure reliability we only use the best Digital Ocean droplets that
-          $4 a month can buy.
+        <ListItem title="Sesja zdjęciowa">
+          Dobre zdjęcia do podstawa ogłoszenia, profesjonalny fotograf, dobre oświetlenie i na końcu retusz. Na ogłoszenie trafią zdjęcia idealne.
         </ListItem>
-        <ListItem title="Support">
-          Because we hold the API keys for every critical service your business
-          uses, you can expect a lifetime of support, and invoices, from us.
+        <ListItem title="Prezentacja">
+          Ładnie się uśmiechamy i oprowadzamy potencjalnych klientów. Stwarzamy przyjazną atmosferę i nawiązujemy więź z kupującym lub wynajmującym.
         </ListItem>
       </List>
     </Section>
@@ -238,11 +217,9 @@ export const metadata = {
 export default function Process() {
   return (
     <>
-      <PageIntro eyebrow="Our process" title="How we work">
+      <PageIntro eyebrow="Nasz proces" title="Na czym polega nasza praca?">
         <p>
-          We believe in efficiency and maximizing our resources to provide the
-          best value to our clients. The primary way we do that is by re-using
-          the same five projects we’ve been developing for the past decade.
+          Posiadamy wszystkie narzędzia potrzebne do zarabiania na nieruchomościach i robiliśmy już to wiele razy. Zobacz jakie to proste:
         </p>
       </PageIntro>
 
@@ -252,7 +229,7 @@ export default function Process() {
         <Deliver />
       </div>
 
-      <Values />
+      {/* <Values /> */}
 
       <ContactSection />
     </>
