@@ -198,7 +198,7 @@ export default async function Home() {
                   <div className="ml-auto w-48 flex-none space-y-8 pt-32 sm:ml-0 sm:pt-80 lg:order-last lg:pt-36 xl:order-none xl:pt-80">
                     <div className="relative">
                       <img
-                        src="https://images.unsplash.com/photo-1557804506-669a67965ba0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&h=528&q=80"
+                        src="https://cdn.midjourney.com/247dfee2-59e6-436e-ac9b-bffca1047066/0_2.png"
                         alt=""
                         className="aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg"
                       />
@@ -208,7 +208,7 @@ export default async function Home() {
                   <div className="mr-auto w-48 flex-none space-y-8 sm:mr-0 sm:pt-52 lg:pt-36">
                     <div className="relative">
                       <img
-                        src="https://images.unsplash.com/photo-1485217988980-11786ced9454?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&h=528&q=80"
+                        src="https://cdn.discordapp.com/attachments/1099821913829814362/1131167390755979314/CinkMane_apartment_in_poland_old_building_small_windows_soft_mi_cd20c284-33e3-4444-8f84-352dc884c6ec.png"
                         alt=""
                         className="aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg"
                       />
@@ -216,7 +216,7 @@ export default async function Home() {
                     </div>
                     <div className="relative">
                       <img
-                        src="https://images.unsplash.com/photo-1559136555-9303baea8ebd?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&crop=focalpoint&fp-x=.4&w=396&h=528&q=80"
+                        src="https://cdn.discordapp.com/attachments/1099821913829814362/1131167412876750848/CinkMane_apartment_in_poland_old_building_small_windows_soft_mi_1f0a2ec1-9ebd-4d22-bc33-d8b11b55c4cd.png"
                         alt=""
                         className="aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg"
                       />
@@ -226,7 +226,7 @@ export default async function Home() {
                   <div className="w-48 flex-none space-y-8 pt-32 sm:pt-0">
                     <div className="relative">
                       <img
-                        src="https://images.unsplash.com/photo-1670272504528-790c24957dda?ixlib=rb-4.0.3&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&crop=left&w=400&h=528&q=80"
+                        src="https://cdn.discordapp.com/attachments/1099821913829814362/1131142944326422578/CinkMane_apartment_in_poland_old_building_small_windows_soft_mi_c76f2a8d-33c3-4f3f-a344-aaffe70ed4d4.png"
                         alt=""
                         className="aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg"
                       />
@@ -234,7 +234,7 @@ export default async function Home() {
                     </div>
                     <div className="relative">
                       <img
-                        src="https://images.unsplash.com/photo-1670272505284-8faba1c31f7d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&h=528&q=80"
+                        src="https://cdn.discordapp.com/attachments/1099821913829814362/1130581464837267586/CinkMane_handsome_constructor_working_in_renovating_apartment_i_35a98766-75e7-4f9c-b2e8-94ba9e86d5f6.png"
                         alt=""
                         className="aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg"
                       />

@@ -127,11 +127,11 @@ function Navigation() {
   return (
     <nav className="mt-px font-display text-5xl font-medium tracking-tight text-white">
       <NavigationRow>
-        <NavigationItem href="/work">Our Work</NavigationItem>
-        <NavigationItem href="/about">About Us</NavigationItem>
+        <NavigationItem href="/work">Realizacje</NavigationItem>
+        <NavigationItem href="/about">O nas</NavigationItem>
       </NavigationRow>
       <NavigationRow>
-        <NavigationItem href="/process">Our Process</NavigationItem>
+        <NavigationItem href="/process">Nasz proces</NavigationItem>
         <NavigationItem href="/blog">Blog</NavigationItem>
       </NavigationRow>
     </nav>
@@ -212,7 +212,7 @@ function RootLayoutInner({ children }) {
                 <div className="grid grid-cols-1 gap-y-10 pb-16 pt-10 sm:grid-cols-2 sm:pt-16">
                   <div>
                     <h2 className="font-display text-base font-semibold text-white">
-                      Our offices
+                      Porozmawiajmy
                     </h2>
                     <Offices
                       invert
@@ -221,7 +221,7 @@ function RootLayoutInner({ children }) {
                   </div>
                   <div className="sm:border-l sm:border-transparent sm:pl-16">
                     <h2 className="font-display text-base font-semibold text-white">
-                      Follow us
+                      Social Media
                     </h2>
                     <SocialMedia className="mt-6" invert />
                   </div>
