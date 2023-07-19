@@ -7,7 +7,7 @@ import { socialMediaProfiles } from '@/components/SocialMedia'
 
 const navigation = [
   {
-    title: 'Work',
+    title: 'Realizacje',
     links: [
       { title: 'FamilyFund', href: '/work/family-fund' },
       { title: 'Unseal', href: '/work/unseal' },
@@ -15,7 +15,7 @@ const navigation = [
       {
         title: (
           <>
-            See all <span aria-hidden="true">&rarr;</span>
+            Zobacz wszystkie <span aria-hidden="true">&rarr;</span>
           </>
         ),
         href: '/work',
@@ -23,16 +23,16 @@ const navigation = [
     ],
   },
   {
-    title: 'Company',
+    title: 'Firma',
     links: [
-      { title: 'About', href: '/about' },
-      { title: 'Process', href: '/process' },
+      { title: 'O nas', href: '/about' },
+      { title: 'Proces', href: '/process' },
       { title: 'Blog', href: '/blog' },
-      { title: 'Contact us', href: '/contact' },
+      { title: 'Kontakt', href: '/contact' },
     ],
   },
   {
-    title: 'Connect',
+    title: 'Social media',
     links: socialMediaProfiles,
   },
 ]
@@ -82,16 +82,15 @@ function NewsletterForm() {
   return (
     <form className="max-w-sm">
       <h2 className="font-display text-sm font-semibold tracking-wider text-neutral-950">
-        Sign up for our newsletter
+        Zapisz się do naszego newslettera
       </h2>
       <p className="mt-4 text-sm text-neutral-700">
-        Subscribe to get the latest design news, articles, resources and
-        inspiration.
+        Daj nam szansę pokazania co wiemy i nie przegap okazji które oferujemy.
       </p>
       <div className="relative mt-6">
         <input
           type="email"
-          placeholder="Email address"
+          placeholder="Adres email"
           autoComplete="email"
           aria-label="Email address"
           className="block w-full rounded-2xl border border-neutral-300 bg-transparent py-4 pl-6 pr-20 text-base/6 text-neutral-950 ring-4 ring-transparent transition placeholder:text-neutral-500 focus:border-neutral-950 focus:outline-none focus:ring-neutral-950/5"
