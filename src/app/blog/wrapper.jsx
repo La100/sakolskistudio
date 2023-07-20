@@ -29,7 +29,7 @@ export default async function BlogArticleWrapper({ children, _segments }) {
               {formatDate(article.date)}
             </time>
             <p className="mt-6 text-sm font-semibold text-neutral-950">
-              by {article.author.name}, {article.author.role}
+              Napisane przez {article.author.name}
             </p>
           </header>
         </FadeIn>

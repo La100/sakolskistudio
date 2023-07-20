@@ -9,9 +9,9 @@ const navigation = [
   {
     title: 'Realizacje',
     links: [
-      { title: 'FamilyFund', href: '/work/family-fund' },
-      { title: 'Unseal', href: '/work/unseal' },
-      { title: 'Phobia', href: '/work/phobia' },
+      { title: 'Flip mieszkaniowy', href: '/work/sieczna' },
+      { title: 'Najem długoterminowy', href: '/work/lomzynska' },
+      { title: 'Najem krótkoterminowy', href: '/work/szarych-szeregow' },
       {
         title: (
           <>

@@ -1,0 +1,60 @@
+import logo from './szarych.png'
+import imageHero from './niska.jpg'
+import imageJennyWilson from './jenny-wilson.jpeg'
+
+export const caseStudy = {
+  client: 'Szarych Szeregów 8',
+  title: 'Airbnb na Woli - 14% ROI',
+  description:
+    'Nabyliśmy mieszkaniew centralnej lokalizacji i z pomysłem podzieliliśmy je na trzy oddzielne jednostki, maksymalizując zwrot z inwestycji z krótkoterminowego wynajmu.',
+  summary: [
+    'Nabyliśmy mieszkaniew centralnej lokalizacji i z pomysłem podzieliliśmy je na trzy oddzielne jednostki, maksymalizując zwrot z inwestycji z krótkoterminowego wynajmu.',
+    'Ta kreatywna strategia wygenerowała imponujący zwrot z inwestycji wynoszący 14% rocznie po kosztach.',
+  ],
+  logo,
+  image: { src: imageHero },
+  date: '2022-06',
+  service: 'Najem krótkoterminowy',
+  testimonial: {
+    author: { name: 'Jenny Wilson', role: 'CPO of Phobia' },
+    content:
+      'The team at Studio went above and beyond with our onboarding, even finding a way to access the user’s microphone without triggering one of those annoying permission dialogs.',
+  },
+}
+
+export const metadata = {
+  title: `${caseStudy.client} Case Study`,
+  description: caseStudy.description,
+}
+
+## Omówienie
+
+W tym wyjątkowym przypadku biznesowym, sprytnie nabyliśmy mieszkanie
+w centralnej lokalizacji i z pomysłem podzieliliśmy je na trzy oddzielne
+jednostki, maksymalizując zwrot z inwestycji z krótkoterminowego wynajmu.
+
+Ta kreatywna strategia wygenerowała imponujący zwrot z inwestycji
+wynoszący 14% rocznie po kosztach, ale przed opodatkowaniem, co stanowi
+przykład naszej zdolności do odkrywania i wykorzystywania kluczowych
+okazji, które dostarczają znacznej wartości dla naszych inwestorów. 
+
+Nasza wiedza w zakresie optymalizacji nieruchomości, zwłaszcza w poszukiwanych
+centrum miast, wzmacnia potencjał naszych przedsięwzięć w tej dziedzinie i
+stanowi przekonujący argument na rzecz współpracy inwestycyjnej.
+
+## Co wykonaliśmy?
+
+<TagList>
+  <TagListItem>Kupno mieszkania poniżej ceny rynkowej</TagListItem>
+  <TagListItem>Podział na 3 mniejsze mieszkania</TagListItem>
+  <TagListItem>Najem krótkoterminowy</TagListItem>
+</TagList>
+
+
+
+<StatList>
+  <StatListItem value="785.000 zł" label="Kapitał zainwestowany " />
+  <StatListItem value="950.000 zł" label="Cena sprzedaży" />
+  <StatListItem value="14%" label="Zwrot inwestycji z najmu" />
+  <StatListItem value="110.000 zł" label="Zysk roczny z najmu" />
+</StatList>

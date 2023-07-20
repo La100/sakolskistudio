@@ -83,7 +83,7 @@ function CaseStudies({ caseStudies }) {
                     <Image
                       src={caseStudy.logo}
                       alt={caseStudy.client}
-                      className="h-16 w-16"
+                      className="h-32 w-32"
                       unoptimized
                     />
                   </Link>

@@ -50,7 +50,7 @@ export default async function CaseStudyLayout({ children, _segments }) {
             </div>
 
             <div className="border-y border-neutral-200 bg-neutral-100">
-              <div className="-my-px mx-auto max-w-[76rem] bg-neutral-200">
+              <div className="-my-px mx-auto max-w-[65rem] bg-neutral-200">
                 <GrayscaleTransitionImage
                   {...caseStudy.image}
                   quality={90}
@@ -73,7 +73,7 @@ export default async function CaseStudyLayout({ children, _segments }) {
       {moreCaseStudies.length > 0 && (
         <PageLinks
           className="mt-24 sm:mt-32 lg:mt-40"
-          title="More case studies"
+          title="Więcej przykładów naszych realizacji"
           pages={moreCaseStudies}
         />
       )}

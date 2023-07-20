@@ -51,7 +51,7 @@ const featuredTestimonial = {
       ],
       [
         {
-          body: 'Molestias ea earum quos nostrum doloremque sed. Quaerat quasi aut velit incidunt excepturi rerum voluptatem minus harum.',
+          body: 'Cały proces przebiegł bardzo sprawnie. Zdążyliśmy wykonać flipa w 3 miesiące i zarobić na nim 25,8%',
           author: {
             name: 'Leonard Krasner',
           
