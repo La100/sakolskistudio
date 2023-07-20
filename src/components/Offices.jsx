@@ -21,10 +21,10 @@ export function Offices({ invert = false, ...props }) {
   return (
     <ul role="list" {...props}>
       <li>
-        <Office name="Warszawa" invert={invert}>
-          1 Carlsberg Gate
+        <Office name="Nasze biuro" invert={invert}>
+          Adres firmy 20
           <br />
-          1260, København, Denmark
+          02-929 Warszawa
         </Office>
       </li>
       <li>
