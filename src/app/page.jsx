@@ -177,19 +177,19 @@ export default async function Home() {
               <div className="mx-auto max-w-2xl  lg:mx-0 lg:flex lg:max-w-none lg:items-center">
                 <div className="w-full max-w-xl lg:shrink-0 xl:max-w-2xl">
                 <h1 className="font-display text-3xl font-medium tracking-tight text-neutral-950 [text-wrap:balance] sm:text-7xl">
-            Jesteśmy ekspertami rynku nieruchomości 
+           Z nami zarobisz więcej na nieruchomościach.
           </h1>
           <p className="mt-6 text-xl text-neutral-600">
-          Zajmujemy się zarabianiem na rynku mieszkaniowym w Warszawie.  Poprowadzimy cię przez proces inwestycyjny. Z nami uzyskasz większą stopę zwrotu.
+          Zajmujemy się inwestowaniem na rynku mieszkaniowym w Warszawie. Oferujemy zakup inwestycyjny na wynajem i inwestycje w obrót nieruchomościami.
           </p>
                   <div className="mt-10 flex items-center gap-x-6">
                     <a
-                      href="#"
+                      href="/process"
                       className="rounded-md bg-neutral-950 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-neutral-800 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
                     >
                      Jak działamy?
                     </a>
-                    <a href="#" className="text-sm font-semibold leading-6 text-gray-900">
+                    <a href="/contact" className="text-sm font-semibold leading-6 text-gray-900">
                       Porozmawiajmy <span aria-hidden="true">→</span>
                     </a>
                   </div>
