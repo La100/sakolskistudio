@@ -139,7 +139,7 @@ export default function ContactUs() {
             className="bg-transparent h-[7rem] border-b py-2 pl-4 focus:outline-none focus:rounded-md focus:ring-1 ring-green-500  text-black"
           ></textarea>
           {errors?.message && (
-            <p className="text-red-500">Wpisz treść wiadomości</p>
+            <p className="text-red-500">Wpisz treść wiadomości:</p>
           )}
           <div className="flex flex-row items-center justify-start">
             <button
