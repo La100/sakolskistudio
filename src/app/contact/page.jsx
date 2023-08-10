@@ -123,7 +123,7 @@ function ContactDetails() {
 
 // export const metadata = {
 //   title: 'Porozmawiajmy',
-//   description: 'Zapraszamy do kontaktu.',
+//   description: 'Zapraszamy do kontaktu',
 // }
 
 export default function Contact() {
