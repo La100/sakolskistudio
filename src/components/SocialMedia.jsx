@@ -58,9 +58,8 @@ function DribbbleIcon(props) {
 }
 
 export const socialMediaProfiles = [
-  { title: 'Facebook', href: 'https://facebook.com', icon: FacebookIcon },
-  { title: 'Instagram', href: 'https://instagram.com', icon: InstagramIcon },
-  { title: 'Twitter', href: 'https://twitter.com', icon: TwitterIcon },
+  { title: 'Facebook', href: 'https://facebook.com/reviveinvest', icon: FacebookIcon },
+  { title: 'Instagram', href: 'https://www.instagram.com/revive_investments/', icon: InstagramIcon },
 ]
 
 export function SocialMedia({ className, invert = false }) {

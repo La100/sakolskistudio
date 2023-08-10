@@ -157,7 +157,7 @@ function Services() {
 
 export const metadata = {
   description:
-    'We are developer studio working at the intersection of design and technology.',
+    'Inwestujemy w nieruchomości',
 }
 
 export default async function Home() {
@@ -258,7 +258,7 @@ export default async function Home() {
         className="mt-24 sm:mt-32 lg:mt-40"
         client={{ name: 'Phobia', logo: logoPhobiaDark }}
       >
-        Ekpia w Sakolski studio przerosła moje najśmielsze oczekiwania, najpierw sprzedałem moje mieszkanie 15% powyżej wartości rynkowej. Potem znaleźli mi okazję inwestycyjną 10% poniżej wartości rynkowej. Wymieniłem moje mieszkanie na warte 25% więcej, nie ponosząc żadnych kosztów!
+        Ekpia w Revive Investments przerosła moje najśmielsze oczekiwania, najpierw sprzedałem moje mieszkanie 15% powyżej wartości rynkowej. Potem znaleźli mi okazję inwestycyjną 10% poniżej wartości rynkowej. Wymieniłem moje mieszkanie na warte 25% więcej, nie ponosząc żadnych kosztów!
       </Testimonial>
 
       <Services />

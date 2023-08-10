@@ -9,7 +9,7 @@ import { PageIntro } from '@/components/PageIntro'
 import { SectionIntro } from '@/components/SectionIntro'
 import { StylizedImage } from '@/components/StylizedImage'
 import { TagList, TagListItem } from '@/components/TagList'
-import imageLaptop from '@/images/flip3.png'
+import imageLaptop from '@/images/flip5.png'
 import imageMeeting from '@/images/flip4.png'
 import imageWhiteboard from '@/images/flip2.png'
 
@@ -98,10 +98,10 @@ function Build() {
       </div>
 
       <Blockquote
-        author={{ name: 'Adam Tamowski', role: 'Inwestor' }}
+        author={{ name: 'Adam Sadowski', role: 'Inwestor' }}
         className="mt-12"
       >
-        To pierwszy remont w moim życiu który poszedł sprawnie. Do tej pory miałem złe wspomnienia z ekipami remontowymi, lecz Sakolski Investments pokazało mi, że można inaczej.
+        To pierwszy remont w moim życiu który poszedł sprawnie. Do tej pory miałem złe wspomnienia z ekipami remontowymi, lecz Revive Investments pokazało mi, że można inaczej.
       </Blockquote>
     </Section>
   )

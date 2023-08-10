@@ -9,9 +9,9 @@ import { PageIntro } from '@/components/PageIntro'
 import { PageLinks } from '@/components/PageLinks'
 import { SectionIntro } from '@/components/SectionIntro'
 import { StatList, StatListItem } from '@/components/StatList'
-import imageChelseaHagon from '@/images/team/chelsea-hagon.jpeg'
-import imageEmmaDorsey from '@/images/team/emma-dorsey.jpeg'
-import imageLeonardKrasner from '@/images/team/leonard-krasner.jpeg'
+import imageMarcin from '@/images/marcin.jpg'
+import imageSonia from '@/images/sonia.jpg'
+import imageAnastazja from '@/images/anastazja.jpg'
 import imageDaniel from '@/images/daniel.jpg'
 import { loadMDXMetadata } from '@/lib/loadMDXMetadata'
 
@@ -60,19 +60,19 @@ const team = [
     title: 'Zespół',
     people: [
       {
-        name: 'Chelsea Hagon',
-        role: 'Senior Developer',
-        image: { src: imageChelseaHagon },
+        name: 'Anastasiia Shyshko',
+        role: 'Fotograf',
+        image: { src: imageAnastazja },
       },
       {
-        name: 'Emma Dorsey',
-        role: 'Senior Designer',
-        image: { src: imageEmmaDorsey },
+        name: 'Marcin Stola',
+        role: 'Marketing',
+        image: { src: imageMarcin },
       },
       {
-        name: 'Leonard Krasner',
-        role: 'VP, User Experience',
-        image: { src: imageLeonardKrasner },
+        name: 'Sonia Rendecka',
+        role: 'Architekt',
+        image: { src: imageSonia },
       },
     ],
   },
@@ -144,7 +144,7 @@ export default async function About() {
         </p>
         <div className="mt-10 max-w-2xl space-y-6 text-base">
           <p>
-          Nasza misja w „Sakolski Investments” to przełamanie stereotypu, że inwestycje w nieruchomości są skomplikowane, czasochłonne i wymagają dużego kapitału poprzez umożliwienie łatwego, szybkiego i bezproblemowego inwestowania w najbardziej okazyjne nieruchomości dla jak największej liczby inwestorów z Europy i USA, minimalizując ryzyko inwestycyjne.
+          Nasza misja w Revive Investments to przełamanie stereotypu, że inwestycje w nieruchomości są skomplikowane, czasochłonne i wymagają dużego kapitału poprzez umożliwienie łatwego, szybkiego i bezproblemowego inwestowania w najbardziej okazyjne nieruchomości dla jak największej liczby inwestorów z Europy i USA, minimalizując ryzyko inwestycyjne.
           </p>
           <p>
           Chcemy umożliwić inwestorom z tych regionów, aby zainwestowali w nieruchomość lub jej część, dzięki czemu mogą zwiększyć swój zysk przy jednoczesnym zmniejszeniu ryzyka. Pragniemy stać się światowym liderem w dziedzinie inwestycji w nieruchomości, zapewniając naszym klientom transparentny, rzetelny i prosty proces inwestycyjny.

@@ -12,12 +12,12 @@ import Link from 'next/link'
 import { usePathname } from 'next/navigation'
 import clsx from 'clsx'
 import { motion, MotionConfig, useReducedMotion } from 'framer-motion'
-import Image from 'next/image'
+
 import { Button } from '@/components/Button'
 import { Container } from '@/components/Container'
 import { Footer } from '@/components/Footer'
 import { GridPattern } from '@/components/GridPattern'
-
+import { Logo, Logomark } from '@/components/Logo'
 import { Offices } from '@/components/Offices'
 import { SocialMedia } from '@/components/SocialMedia'
 
@@ -53,19 +53,15 @@ function Header({
   return (
     <Container>
       <div className="flex items-center justify-between">
-      
         <Link
           href="/"
           aria-label="Home"
-          onMouseEnter={() => setLogoHovered(true)}
-          onMouseLeave={() => setLogoHovered(false)}
+    
         >
-         <img
-         src='../@/images/logstein.png'     
-        width={150}
-        height={50}
-         alt='logorevive'
-         />
+        <img
+        src="https://corkamor.com/wp-content/uploads/2023/08/logstein.png" 
+        className='rounded-full'
+        />
         </Link>
         <div className="flex items-center gap-x-8">
           <Button href="/contact" invert={invert}>

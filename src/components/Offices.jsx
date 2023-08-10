@@ -21,15 +21,15 @@ export function Offices({ invert = false, ...props }) {
   return (
     <ul role="list" {...props}>
       <li>
-        <Office name="Nasze biuro" invert={invert}>
-          Adres firmy 20
+        <Office name="Revive Investments Sp. z o.o." invert={invert}>
+        ul. Marszałkowska 83/93
           <br />
-          02-929 Warszawa
+        00-683 Warszawa
         </Office>
       </li>
       <li>
         <Office name="Kontakt" invert={invert}>
-        danielsakolski@gmail.com
+        kontakt@reviveinvestments.pl
           <br />
         +48516651776
         </Office>

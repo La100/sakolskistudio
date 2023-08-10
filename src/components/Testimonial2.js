@@ -15,7 +15,7 @@ const featuredTestimonial = {
         {
           body: 'Daniel zawsze przychodzi na czas, jest profesjonalnie przygotowany do rozmów o kosztach, skrupulatny, doskonale się komunikuje. Jego zaangażowanie w każdy projekt, zdolność do rozwiązywania problemów i umiejętność pracy zespołowej sprawiają, że robimy postępy i po prostu robimy wyniki. Prędzej, później Daniel dowozi i inwestujemy dalej',
           author: {
-            name: 'Leslie Alexander',
+            name: 'Adam Sadowski',
             
             imageUrl:
               'https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
@@ -27,7 +27,7 @@ const featuredTestimonial = {
         {
           body: 'Zrealizowaliśmy razem od początku do końca udanego flipa 40-metrowego mieszkania na Pradze i 2 remonty kawalerek w Warszawie.',
           author: {
-            name: 'Lindsay Walton',
+            name: 'Mariusz Figura',
             
             imageUrl:
               'https://images.unsplash.com/photo-1517841905240-472988babdf9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
@@ -53,7 +53,7 @@ const featuredTestimonial = {
         {
           body: 'Cały proces przebiegł bardzo sprawnie. Zdążyliśmy wykonać flipa w 3 miesiące i zarobić na nim 25,8%',
           author: {
-            name: 'Leonard Krasner',
+            name: 'Dariusz Nakliński',
           
             imageUrl:
               'https://images.unsplash.com/photo-1519345182560-3f2917c472ef?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
@@ -108,16 +108,12 @@ const featuredTestimonial = {
                 <p>{`“${featuredTestimonial.body}”`}</p>
               </blockquote>
               <figcaption className="flex items-center gap-x-4 border-t border-gray-900/10 px-6 py-4">
-                <img
-                  className="h-10 w-10 flex-none rounded-full bg-gray-50"
-                  src={featuredTestimonial.author.imageUrl}
-                  alt=""
-                />
+                
                 <div className="flex-auto">
                   <div className="font-semibold">{featuredTestimonial.author.name}</div>
                 
                 </div>
-                <img className="h-10 w-auto flex-none" src={featuredTestimonial.author.logoUrl} alt="" />
+           
               </figcaption>
             </figure>
             {testimonials.map((columnGroup, columnGroupIdx) => (
@@ -142,7 +138,7 @@ const featuredTestimonial = {
                           <p>{`“${testimonial.body}”`}</p>
                         </blockquote>
                         <figcaption className="mt-6 flex items-center gap-x-4">
-                          <img className="h-10 w-10 rounded-full bg-gray-50" src={testimonial.author.imageUrl} alt="" />
+                         
                           <div>
                             <div className="font-semibold">{testimonial.author.name}</div>
                             
