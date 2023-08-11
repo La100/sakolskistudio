@@ -1,10 +1,10 @@
-"use client";
 
-import { useState } from "react";
-import { useId } from 'react'
-import Link from 'next/link'
-import { useClient } from "next/client";
-import { ClientContext } from "next/client";
+
+// import { useState } from "react";
+// import { useId } from 'react'
+// import Link from 'next/link'
+// import { useClient } from "next/client";
+// import { ClientContext } from "next/client";
 import { Border } from '@/components/Border'
 import { Button } from '@/components/Button'
 import { Container } from '@/components/Container'
@@ -12,7 +12,7 @@ import { FadeIn } from '@/components/FadeIn'
 import { Offices } from '@/components/Offices'
 import { PageIntro } from '@/components/PageIntro'
 import { SocialMedia } from '@/components/SocialMedia'
-import ContactUs  from '@/components/ContactForm'
+// import ContactUs  from '@/components/ContactForm'
 // function TextInput({ label, ...props }) {
 //   let id = useId()
 
@@ -138,7 +138,8 @@ export default function Contact() {
 
       <Container className="mt-24 sm:mt-32 lg:mt-40">
         <div className="grid grid-cols-1 gap-x-8 gap-y-24 lg:grid-cols-2">
-        <ContactUs/>
+        <div data-tf-widget="CRjBV7X3" data-tf-opacity="100" data-tf-iframe-props="title=Contact Form for Real Estate Investing Company" data-tf-transitive-search-params data-tf-medium="snippet" ></div><script async src="//embed.typeform.com/next/embed.js"></script>
+        {/* <ContactUs/> */}
           <ContactDetails />
         </div>
       </Container>
