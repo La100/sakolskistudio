@@ -54,7 +54,7 @@ function Header({
     
    
     <Container>
-       {/* <Script
+       <Script
 id="fb-pixel"
 strategy="afterInteractive"
 dangerouslySetInnerHTML={{
@@ -73,9 +73,7 @@ fbq('track', 'PageView');
 }}
 />
   
-<noscript><img height="1" width="1" style="display:none"
-  src="https://www.facebook.com/tr?id=270175679293092&ev=PageView&noscript=1"
-/></noscript> */}
+
 
       <div className="flex items-center justify-between">
         <Link
