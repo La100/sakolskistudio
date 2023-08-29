@@ -51,8 +51,10 @@ function Header({
   let { logoHovered, setLogoHovered } = useContext(RootLayoutContext)
 
   return (
-    <>
-    <Script
+    
+   
+    <Container>
+       <Script
 id="fb-pixel"
 strategy="afterInteractive"
 dangerouslySetInnerHTML={{
@@ -75,7 +77,6 @@ fbq('track', 'PageView');
   src="https://www.facebook.com/tr?id=270175679293092&ev=PageView&noscript=1"
 /></noscript>
 
-    <Container>
       <div className="flex items-center justify-between">
         <Link
           href="/"
@@ -115,7 +116,7 @@ fbq('track', 'PageView');
         </div>
       </div>
     </Container>
-    </>
+   
   )
 }
 
