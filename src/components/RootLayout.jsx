@@ -73,7 +73,9 @@ fbq('track', 'PageView');
 }}
 />
   
-
+<noscript><img height="1" width="1" className='hidden'
+  src="https://www.facebook.com/tr?id=270175679293092&ev=PageView&noscript=1"
+/></noscript>
 
       <div className="flex items-center justify-between">
         <Link
