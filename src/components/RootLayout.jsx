@@ -281,7 +281,20 @@ fbq('track', 'PageView');
 <noscript><img height="1" width="1" className='hidden'
   src="https://www.facebook.com/tr?id=270175679293092&ev=PageView&noscript=1"
 /></noscript>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-Y3SR590HL3"></script>
+<script
+id="ga4"
+strategy="afterInteractive"
+dangerouslySetInnerHTML={{
+__html: `
+window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
+  gtag('config', 'G-Y3SR590HL3');
+`,
+}}
+/>
       <RootLayoutInner key={pathname}>{children}</RootLayoutInner>
     </RootLayoutContext.Provider>
   )
