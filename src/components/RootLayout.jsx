@@ -54,7 +54,7 @@ function Header({
     
    
     <Container>
-       <Script
+       <script
 id="fb-pixel"
 strategy="afterInteractive"
 dangerouslySetInnerHTML={{
