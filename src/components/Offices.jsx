@@ -24,7 +24,8 @@ export function Offices({ invert = false, ...props }) {
         <Office name="Revive Investments Sp. z o.o." invert={invert}>
         ul. Marszałkowska 83/93
           <br />
-        00-683 Warszawa
+        00-683 Warszawa <br />
+        NIP 7011160797
         </Office>
       </li>
       <li>
