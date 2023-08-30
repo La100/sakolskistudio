@@ -258,7 +258,7 @@ export default async function Home() {
         className="mt-24 sm:mt-32 lg:mt-40"
         client={{ name: 'Phobia', logo: logoPhobiaDark }}
       >
-       Osiągnięcie 14% rocznego zwrotu z najmu to bardzo dobry wynik. Dzięki Revive Investemnts mam naprawdę fajną inwestycję.
+       Osiągnięcie 14% rocznego zwrotu z najmu to bardzo dobry wynik. Dzięki Revive Investements mam naprawdę fajną inwestycję.
       </Testimonial>
 
       <Services />
