@@ -249,10 +249,10 @@ export default async function Home() {
    
         </FadeIn>
       </Container>
-      
+      <CaseStudies caseStudies={caseStudies} />
       <Testimonialsy />
 
-      <CaseStudies caseStudies={caseStudies} />
+     
 
       <Testimonial
         className="mt-24 sm:mt-32 lg:mt-40"
