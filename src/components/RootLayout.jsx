@@ -124,7 +124,7 @@ function Navigation() {
   return (
     <nav className="mt-px font-display text-5xl font-medium tracking-tight text-white">
       <NavigationRow>
-        <NavigationItem href="/work">Realizacje</NavigationItem>
+        <NavigationItem href="/work">Zrealizowane inwestycje</NavigationItem>
         <NavigationItem href="/about">O nas</NavigationItem>
       </NavigationRow>
       <NavigationRow>
