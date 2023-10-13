@@ -130,7 +130,7 @@ function Team() {
 export const metadata = {
   title: 'O nas',
   description:
-    'Wierzymy we współpracę z inwestorami, opartą na szczerości.  ',
+    'Revive Investments to firma inwestycyjna specjalizująca się w nieruchomościach. ',
 }
 
 export default async function About() {
@@ -140,22 +140,43 @@ export default async function About() {
     <>
       <PageIntro eyebrow="O nas" title="Wierzymy we współpracę z inwestorami, opartą na szczerości.">
         <p>
-        Dlatego jesteśmy transparentni i podajemy prawdziwe liczby. Każdą z nich możemy udowodnić, pokazująć akty notarialne.
+         Pomagamy prywatnym osobom pomnażać ich majątek w bezpieczny i zyskowny sposób, oferując szeroki wybór możliwości inwestycyjnych, dopasowanych do indywidualnych potrzeb i profilu ryzyka.
         </p>
         <div className="mt-10 max-w-2xl space-y-6 text-base">
           <p>
-          Nasza misja w Revive Investments to przełamanie stereotypu, że inwestycje w nieruchomości są skomplikowane, czasochłonne i wymagają dużego kapitału poprzez umożliwienie łatwego, szybkiego i bezproblemowego inwestowania w najbardziej okazyjne nieruchomości dla jak największej liczby inwestorów z Europy i USA, minimalizując ryzyko inwestycyjne.
+         
+
+Nasz ostatni rok w liczbach
+
+W 2023 roku obraliśmy 16 nieruchomości, o łącznej wartości 9,1 mln zł.
+Zarządzane aktywa mają wartość 1,8 mln zł.<br/>
+Średni zwrot z inwestycji rocznie dla naszych inwestorów wynosi 25%.<br/>
+<br/>Nasze usługi:
+<p>
+<ul className='font-bold'>
+<li>Inwestycje na wynajem</li>
+<li>
+Inwestycje w nowe nieruchomości
+</li>
+<li>Handel nieruchomościami</li>
+
+</ul></p>
+<br/>Dlaczego warto wybrać Revive?
+<br/><br/>
+Oferujemy wysoką stopę zwrotu z kapitału przy inwestycjach w nieruchomości. Średnio od 16% do 30% rocznie.
+Oferujemy szeroki wybór możliwości inwestycyjnych, dopasowanych do indywidualnych potrzeb i profilu ryzyka.
+Naszym priorytetem jest bezpieczeństwo i zyskowność inwestycji.
+Mamy doświadczony zespół ekspertów, którzy pomogą Ci wybrać odpowiednią inwestycję.
+Skontaktuj się z nami już dziś, aby dowiedzieć się więcej o naszych usługach.
           </p>
-          <p>
-          Chcemy umożliwić inwestorom z tych regionów, aby zainwestowali w nieruchomość lub jej część, dzięki czemu mogą zwiększyć swój zysk przy jednoczesnym zmniejszeniu ryzyka. Pragniemy stać się światowym liderem w dziedzinie inwestycji w nieruchomości, zapewniając naszym klientom transparentny, rzetelny i prosty proces inwestycyjny.
-          </p>
+          
         </div>
       </PageIntro>
       <Container className="mt-16">
         <StatList>
-          <StatListItem value="13" label="Kupionych nieruchomości" />
-          <StatListItem value="1.5 mln zł" label="Zysk" />
-          <StatListItem value="6.7 mln zł" label="Zarządzanych aktywów" />
+          <StatListItem value="16" label="Kupionych nieruchomości" />
+          <StatListItem value="1.8 mln zł" label="Zysk" />
+          <StatListItem value="9.1 mln zł" label="Zarządzanych aktywów" />
         </StatList>
       </Container>
 
