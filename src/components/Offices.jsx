@@ -22,9 +22,10 @@ export function Offices({ invert = false, ...props }) {
     <ul role="list" {...props}>
       <li>
         <Office name="Revive Investments Sp. z o.o." invert={invert}>
-        ul. Marszałkowska 83/93
+        Witosa Point <br/>
+        ul. Idzikowskiego 16
           <br />
-        00-683 Warszawa <br />
+        00-710 Warszawa <br />
         NIP 7011160797
         </Office>
       </li>

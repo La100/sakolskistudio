@@ -62,8 +62,9 @@ function Header({
     
         >
         <img
-        src="https://corkamor.com/wp-content/uploads/2023/08/logstein.png" 
-        className='rounded-full'
+        src="https://corkamor.com/wp-content/uploads/2023/11/logorevive-e1699374162377.png" 
+        className='rounded-md'
+        width="200"
         />
         </Link>
         <div className="flex items-center gap-x-8">

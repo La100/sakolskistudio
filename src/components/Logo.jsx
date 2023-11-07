@@ -11,7 +11,7 @@ export function Logo({
 }) {
   return (
    <img
-   src="../images/logstein.png"
+   src="../images/logorevive.png"
    width='150px'
    height='50px'
    />

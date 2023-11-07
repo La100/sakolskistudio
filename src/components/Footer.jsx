@@ -122,8 +122,9 @@ export function Footer() {
         <div className="mb-20 mt-24 flex flex-wrap items-end justify-between gap-x-6 gap-y-4 border-t border-neutral-950/10 pt-12">
           <Link href="/" aria-label="Home">
           <img
-        src="https://corkamor.com/wp-content/uploads/2023/08/logstein.png" 
- 
+        src="https://corkamor.com/wp-content/uploads/2023/11/logorevive-e1699374162377.png" 
+        className='rounded-md'
+        width="200"
         />
           </Link>
           <p className="text-sm text-neutral-700">
